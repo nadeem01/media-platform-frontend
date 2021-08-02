@@ -1,0 +1,31 @@
+.nav {
+  width: 100%;
+  display: flex;
+}
+.nav__body {
+  width: 100%;
+}
+.navbar {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-nav {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  min-width: 15rem;
+  flex-direction: row !important;
+}
+.nav-item:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar-nav {
+    min-width: 7rem;
+  }
+}

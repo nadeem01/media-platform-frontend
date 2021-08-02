@@ -1,0 +1,30 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  display: grid;
+  margin: 10px;
+  transition: transform 0.2s; /* Animation */
+  position: relative;
+}
+
+.gallery-item:hover {
+  transform: scale(1.5);
+  z-index: 11;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+}
