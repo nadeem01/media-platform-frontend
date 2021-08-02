@@ -1,3 +1,4 @@
 # How to Run
- npm start
+1. Install dependencies
+2. Run npm start
  
